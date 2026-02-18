@@ -1,7 +1,7 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
 
+/* ระบุ Path ไปที่ไฟล์โดยตรงจาก globals.css */
+@plugin "../node_modules/tailwindcss-animate/index.js";
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
